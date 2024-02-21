@@ -10,6 +10,7 @@ import {
   widthPercentageToDP,
   widthPercentageToDP as wp,
 } from 'react-native-responsive-screen';
+import RNFS from 'react-native-fs';
 
 const Header = ({onPress, onPress2, mute, home}) => {
   const mt = useSelector(state => state.sound);
@@ -19,6 +20,10 @@ const Header = ({onPress, onPress2, mute, home}) => {
     play();
   }, [mute]);
   const dispatch = useDispatch();
+  const path = Platform.select({
+    android: 'asset:/files/',
+    ios: RNFS.MainBundlePath + '/files/',
+  });
 
   useEffect(() => {
     const subscription = AppState.addEventListener('change', nextAppState => {
@@ -49,10 +54,10 @@ const Header = ({onPress, onPress2, mute, home}) => {
     await TrackPlayer.reset();
   };
   const play = async () => {
-    isReady = await setupPlayer();
+    const isReady = await setupPlayer();
     await TrackPlayer.reset();
     let track = {
-      url: require('../../asset2/babyflashtheme.mp3'), // Load media from the file system
+      url: `${path}babyflashtheme.mp3`, // Load media from the file system
       title: 'Ice Age',
       artist: 'deadmau5',
       duration: null,

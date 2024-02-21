@@ -7,6 +7,7 @@ import {
   Alert,
   Platform,
   SafeAreaView,
+  StatusBar,
 } from 'react-native';
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
@@ -204,6 +205,7 @@ const QuestionPage = props => {
   };
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: 'grey'}}>
+      <StatusBar backgroundColor="grey" />
       <View style={{height: '100%', width: '100%'}}>
         <View style={{flex: 1, backgroundColor: 'white'}}>
           <View style={styles.header}>

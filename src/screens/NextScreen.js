@@ -4,6 +4,7 @@ import {
   ImageBackground,
   TouchableOpacity,
   Image,
+  StatusBar,
 } from 'react-native';
 import React, {useState} from 'react';
 import {SafeAreaView} from 'react-native-safe-area-context';
@@ -30,11 +31,11 @@ import {Addsid} from './ads';
 const NextScreen = ({route}) => {
   const navigation = useNavigation();
   const item = useSelector(state => state?.catdata);
-  console.log('this is item', item);
+
   const disapatch = useDispatch();
   const cat = useSelector(state => state.cat);
   const wr = useSelector(state => state.question);
-  console.log(cat);
+
   const muted = useSelector(state => state.sound);
   const getData = (cat, id) => {
     db.transaction(tx => {
@@ -72,12 +73,12 @@ const NextScreen = ({route}) => {
         },
       );
     });
-    console.log(cat, id);
   };
 
   const [mute, setMut] = useState(muted);
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: '#73cbea'}}>
+      <StatusBar backgroundColor="#73cbea" />
       <ImageBackground
         style={{flex: 1}}
         resizeMode="stretch"

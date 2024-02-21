@@ -9,6 +9,7 @@ import {
   Alert,
   ScrollView,
   SafeAreaView,
+  StatusBar,
 } from 'react-native';
 import {height, width} from '../components/Diemenstions';
 import React, {useEffect, useState} from 'react';
@@ -123,7 +124,6 @@ const SettingScreen = props => {
         },
         err => {
           console.log(err);
-          console.log('erorr');
         },
       );
     });
@@ -170,6 +170,7 @@ const SettingScreen = props => {
   }, []);
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: '#73cbea'}}>
+      <StatusBar backgroundColor="#73cbea" />
       <ImageBackground
         resizeMode="stretch"
         style={{flex: 1}}
@@ -192,9 +193,7 @@ const SettingScreen = props => {
                     setquestion(questionMode == 1 ? 0 : 1);
                     getPrevSetting(questionMode == 1 ? 0 : 1);
                   }}
-                  onFocus={() => {
-                    console.log('rrrj');
-                  }}
+                  onFocus={() => {}}
                   sw={questionMode == 1 ? true : false}
                 />
                 <Switch

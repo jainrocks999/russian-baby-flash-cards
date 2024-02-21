@@ -37,7 +37,7 @@ const HorizontalList = ({items}) => {
               arr.push(row);
             }
             disapatch(addData(arr));
-            console.log(arr);
+
             disapatch(addCatNext({items, id: parseInt(id) + 1}));
             navigation.navigate(wr == 1 ? 'question' : 'details', {
               page: true,

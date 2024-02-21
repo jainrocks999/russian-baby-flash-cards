@@ -8,6 +8,7 @@ import {
   Alert,
   Platform,
   SafeAreaView,
+  StatusBar,
 } from 'react-native';
 import React, {useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
@@ -138,8 +139,6 @@ const Detials = props => {
     let ActualSound;
     let y = data.length;
     if (count >= 0 && count <= y - 1) {
-      console.log(newData[count]);
-
       ActualSound = newData[count].ActualSound;
       Imagess = `${path}${newData[count].Image}`;
       Titel = newData[count].Title;
@@ -212,6 +211,7 @@ const Detials = props => {
 
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: 'grey'}}>
+      <StatusBar backgroundColor="grey" />
       <GestureRecognizer
         style={{flex: 1}}
         onSwipeLeft={() =>

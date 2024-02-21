@@ -1,4 +1,4 @@
-package com.eFlashPotuguese;
+package com.eFlashRussian;
 
 import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactActivityDelegate;
@@ -14,7 +14,7 @@ public class MainActivity extends ReactActivity {
    */
   @Override
   protected String getMainComponentName() {
-    return "eFlashPotuguese";
+    return "eFlashRussian";
   }
   @Override
 protected void onCreate(Bundle savedInstanceState) {

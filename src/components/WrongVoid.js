@@ -2,40 +2,39 @@ import {Platform} from 'react-native';
 import RNFS from 'react-native-fs';
 
 const path = Platform.select({
-  android: '${path}',
+  android: 'asset:/files/',
   ios: RNFS.MainBundlePath + '/files/',
 });
 export const WrongVoid = [
   (track1 = {
-    url: `${path}uhoh.mp3`, // Load media from the file system
+    url: `${path}uhoh.mp3`,
     title: 'uhoh',
     artist: 'eFlashApps',
-    // Load artwork from the file system: //tryagain.mp3'
+
     artwork: `${path}uhoh.mp3`,
     duration: null,
   }),
   (track = {
-    url: `${path}tryagain.mp3`, // Load media from the file system
+    url: `${path}tryagain.mp3`,
     title: 'tryagain',
     artist: 'eFlashApps',
-    // Load artwork from the file system: oopsie.mp3
+
     artwork: `${path}tryagain.mp3`,
     duration: null,
   }),
-  // asset:/files
   (track3 = {
-    url: `${path}oopsie.mp3`, // Load media from the file system
+    url: `${path}oopsie.mp3`,
     title: 'oopsie',
     artist: 'eFlashApps',
-    // Load artwork from the file system:
+
     artwork: `${path}oopsie.mp3`,
     duration: null,
   }),
   (track4 = {
-    url: `${path}youcandoit.mp3`, // Load media from the file system
+    url: `${path}youcandoit.mp3`,
     title: 'youcandoit',
     artist: 'eFlashApps',
-    // Load artwork from the file system:
+
     artwork: `${path}youcandoit.mp3`,
     duration: null,
   }),

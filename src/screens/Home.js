@@ -26,7 +26,7 @@ const Home = () => {
   const muted = useSelector(state => state.sound);
   const Navigation = useNavigation();
   const [mute, setMute] = useState(muted);
-  console.log('thjis sis adds id', Addsid);
+
   useEffect(() => {
     getSettings();
   }, []);
@@ -40,7 +40,6 @@ const Home = () => {
           let row = results.rows.item(0);
           dispatch(addSetting(row));
           dispatch(QuestionMode(row.Question));
-          console.log(row);
         },
         err => {
           console.log(err);
