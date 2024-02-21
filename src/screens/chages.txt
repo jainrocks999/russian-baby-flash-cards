@@ -1,0 +1,83 @@
+image sound:======>>>>>
+{"ActualSound": "", "Category": "Food", "Image": "bellpepper.jpg", "LenguageText": "сладкий перец", "Sound": "bell pepper.mp3", "Title": "Bell Pepper", "_id": 43}
+{"ActualSound": "", "Category": "Food", "Image": "greenbeans.jpg", "LenguageText": "стручковая фасоль", "Sound": "green beans.mp3", "Title": "Green Beans", "_id": 65}
+{"ActualSound": "", "Category": "Food", "Image": "icecream.jpg", "LenguageText": "мороженое", "Sound": "ice cream.mp3", "Title": "Ice cream", "_id": 52}
+{"ActualSound": "", "Category": "Animal", "Image": "starfish.jpg", "LenguageText": "морская звезда", "Sound": "starfish.mp3", "Title": "Star Fish", "_id": 144}
+{"ActualSound": "", "Category": "Colors", "Image": "orangeone.jpg", "LenguageText": "оранжевый", "Sound": "orangeone.mp3", "Title": "Orange", "_id": 22}
+{"ActualSound": "act-bathtub.mp3", "Category": "HomeItems", "Image": "bathtub.jpg", "LenguageText": "ванна", "Sound": "bathtub.mp3", "Title": "Bathtub", "_id": 189}
+{"ActualSound": "", "Category": "HomeItems", "Image": "dinningtable.jpg", "LenguageText": "обеденный стол", "Sound": "dining table.mp3", "Title": "Dinning Table", "_id": 212}
+{"ActualSound": "", "Category": "HomeItems", "Image": "fryingpan.jpg", "LenguageText": "сковорода", "Sound": "frying pan.mp3", "Title": "Frying Pan", "_id": 430}
+{"ActualSound": "", "Category": "HomeItems", "Image": "hairbrush.jpg", "LenguageText": "щетка для волос", "Sound": "hairbrush.mp3", "Title": "Hair Brush", "_id": 217}
+{"ActualSound": "", "Category": "OutdoorItems", "Image": "bl.jpg", "LenguageText": "воздушный шар", "Sound": "balloon.mp3", "Title": "Balloon", "_id": 228}
+{"ActualSound": "", "Category": "OutdoorItems", "Image": "batone.jpg", "LenguageText": "бейсбольная бита", "Sound": "batone.mp3", "Title": "Bat", "_id": 362}
+{"ActualSound": "act_log.mp3", "Category": "OutdoorItems", "Image": "moon.jpg", "LenguageText": "бревно", "Sound": "log.mp3", "Title": "Log", "_id": 390}
+{"ActualSound": "", "Category": "BodyParts", "Image": "fingernails.jpg", "LenguageText": "ногти", "Sound": "fingernails.mp3", "Title": "Finger Nails", "_id": 285}
+{"ActualSound": "", "Category": "Clothing", "Image": "sunglasses.jpg", "LenguageText": "солнечные очки", "Sound": "sunglasses.mp3", "Title": "Sun Glasses", "_id": 173}
+{"ActualSound": "", "Category": "Clothing", "Image": "tshirt.jpg", "LenguageText": "футболка", "Sound": "t shirt.mp3", "Title": "T-shirt", "_id": 176}
+{"ActualSound": "act_biplane.mp3", "Category": "Transport", "Image": "biplane.jpg", "LenguageText": "биплан", "Sound": "biplane.mp3", "Title": "Bi-plane", "_id": 244}
+{"ActualSound": "", "Category": "Transport", "Image": "snowplough.jpg", "LenguageText": "снегоуборочная машина", "Sound": "snow plow.mp3", "Title": "Snow Plough", "_id": 258}
+ {"ActualSound": "act_saxophone.mp3", "Category": "ArtMusic", "Image": "saxophone.jpg", "LenguageText": "саксофон", "Sound": "saxophone.mp3", "Title": "Saxophone", "_id": 422}
+  {"ActualSound": "act_violin.mp3", "Category": "ArtMusic", "Image": "violin.jpg", "LenguageText": "скрипка", "Sound": "violin.mp3", "Title": "Violin", "_id": 426}
+alphabate category images and sounds
+number category images and sound
+
+sound:========>>>>
+{"ActualSound": "", "Category": "Food", "Image": "broccoli.jpg", "LenguageText": "брокколи", "Sound": "brocolli.mp3", "Title": "Broccoli", "_id": 47}
+{"ActualSound": "", "Category": "Food", "Image": "orange.jpg", "LenguageText": "апельсин", "Sound": "orangeone.mp3", "Title": "Orange", "_id": 2}
+{"ActualSound": "", "Category": "Food", "Image": "potatoes.jpg", "LenguageText": "картофель", "Sound": "potato.mp3", "Title": "Potato", "_id": 14}
+{"ActualSound": "act_bull.mp3", "Category": "Animal", "Image": "bull.jpg", "LenguageText": "бык", "Sound": "bull.mp3", "Title": "Bull", "_id": 88}
+{"ActualSound": "act_chimpanzee.mp3", "Category": "Animal", "Image": "chimpanzee.jpg", "LenguageText": "шимпанзе", "Sound": "chimpanzee.mp3", "Title": "Chimpanzee ", "_id": 97}
+{"ActualSound": "act_goose.mp3", "Category": "Animal", "Image": "goose.jpg", "LenguageText": "гусь", "Sound": "goose.mp3", "Title": "Goose", "_id": 111}
+{"ActualSound": "act_lamb.mp3", "Category": "Animal", "Image": "lamb.jpg", "LenguageText": "ягненок", "Sound": "lamb.mp3", "Title": "Lamb", "_id": 115}
+{"ActualSound": "act_owl.mp3", "Category": "Animal", "Image": "owl.jpg", "LenguageText": "сова", "Sound": "owl.mp3", "Title": "Owl", "_id": 123}
+{"ActualSound": "act_rooster.mp3", "Category": "Animal", "Image": "rooster.jpg", "LenguageText": "петух", "Sound": "rooster.mp3", "Title": "Rooster", "_id": 135}
+{"ActualSound": "act_tiger.mp3", "Category": "Animal", "Image": "tiger.jpg", "LenguageText": "тигр", "Sound": "tiger.mp3", "Title": "Tiger", "_id": 146}
+{"ActualSound": "", "Category": "Shapes", "Image": "cresent.jpg", "LenguageText": "полумесяц", "Sound": "crescent.mp3", "Title": "Crescent", "_id": 40}
+{"ActualSound": "act_fan.mp3", "Category": "HomeItems", "Image": "fan.jpg", "LenguageText": "вентилятор", "Sound": "fan.mp3", "Title": "Fan", "_id": 215}
+{"ActualSound": "act_sink.mp3", "Category": "HomeItems", "Image": "sink.jpg", "LenguageText": "раковина", "Sound": "sink.mp3", "Title": "Sink", "_id": 234}
+{"ActualSound": "act_shovel.mp3", "Category": "OutdoorItems", "Image": "shovel.jpg", "LenguageText": "лопата", "Sound": "shovel.mp3", "Title": "Shovel", "_id": 396}
+{"ActualSound": "", "Category": "Clothing", "Image": "overalls.jpg", "LenguageText": "комбинезон", "Sound": "overalls.mp3", "Title": "Overalls", "_id": 185}
+{"ActualSound": "act_bulldozer.mp3", "Category": "Transport", "Image": "bulldozer.jpg", "LenguageText": "бульдозер", "Sound": "bulldozer.mp3", "Title": "Bulldozer", "_id": 272}
+{"ActualSound": "act_bus.mp3", "Category": "Transport", "Image": "bus.jpg", "LenguageText": "автобус", "Sound": "bus.mp3", "Title": "Bus", "_id": 242}
+{"ActualSound": "act_banjo.mp3", "Category": "ArtMusic", "Image": "banjo.jpg", "LenguageText": "банджо", "Sound": "banjo.mp3", "Title": "Banjo", "_id": 406}
+{"ActualSound": "act_guitar.mp3", "Category": "ArtMusic", "Image": "guitar.jpg", "LenguageText": "гитара", "Sound": "guitar.mp3", "Title": "Guitar", "_id": 414}
+{"ActualSound": "act_piano.mp3", "Category": "ArtMusic", "Image": "piano.jpg", "LenguageText": "пианино", "Sound": "piano.mp3", "Title": "Piano", "_id": 420}
+
+
+
+
+image:=============>
+{"ActualSound": "", "Category": "Food", "Image": "juice.jpg", "LenguageText": "сок", "Sound": "juice.mp3", "Title": "Juice", "_id": 8}
+ {"ActualSound": "", "Category": "Food", "Image": "peanut.jpg", "LenguageText": "арахис", "Sound": "peanut.mp3", "Title": "Peanut", "_id": 11}
+ {"ActualSound": "act-bird.mp3", "Category": "Animal", "Image": "bird.jpg", "LenguageText": "птица", "Sound": "bird.mp3", "Title": "Bird", "_id": 86}  
+ {"ActualSound": "act-chicken.mp3", "Category": "Animal", "Image": "chicken.jpg", "LenguageText": "цыпленок", "Sound": "chicken.mp3", "Title": "Chicken", "_id": 95}
+ {"ActualSound": "", "Category": "Animal", "Image": "fish.jpg", "LenguageText": "рыба", "Sound": "fish.mp3", "Title": "Fish", "_id": 104}
+  {"ActualSound": "act-horse.mp3", "Category": "Animal", "Image": "horse.jpg", "LenguageText": "лошадь", "Sound": "horse.mp3", "Title": "Horse", "_id": 90}
+{"ActualSound": "", "Category": "Animal", "Image": "nest.jpg", "LenguageText": "гнездо", "Sound": "nest.mp3", "Title": "Nest", "_id": 121}
+{"ActualSound": "", "Category": "Animal", "Image": "octopus.jpg", "LenguageText": "осьминог", "Sound": "octopus.mp3", "Title": "Octopus", "_id": 122}
+{"ActualSound": "act-polar bear.mp3", "Category": "Animal", "Image": "polarbear.jpg", "LenguageText": "полярный медведь", "Sound": "polar bear.mp3", "Title": "Polar Bear", "_id": 130}
+ {"ActualSound": "", "Category": "Animal", "Image": "seahorse.jpg", "LenguageText": "морской конек", "Sound": "sea horse.mp3", "Title": "Sea Horse", "_id": 137}
+  {"ActualSound": "", "Category": "HomeItems", "Image": "diaper ", "LenguageText": "подгузник", "Sound": "diaper.mp3", "Title": "Diaper", "_id": 211}
+  {"ActualSound": "act_microwave.mp3", "Category": "HomeItems", "Image": "microwave .jpg", "LenguageText": "микроволновая печь", "Sound": "microwave.mp3", "Title": "Microwave", "_id": 225}
+  {"ActualSound": "", "Category": "HomeItems", "Image": "pillow.jpg", "LenguageText": "духовка", "Sound": "oven.mp3", "Title": "Oven", "_id": 229}
+   {"ActualSound": "", "Category": "HomeItems", "Image": "pillow ", "LenguageText": "подушка", "Sound": "pillow.mp3", "Title": "Pillow", "_id": 231}
+   {"ActualSound": "", "Category": "HomeItems", "Image": "teddybear.jpg", "LenguageText": "плюшевый мишка", "Sound": "teddy bear.mp3", "Title": "Teddy Bear", "_id": 23}
+   {"ActualSound": "act_football.mp3", "Category": "OutdoorItems", "Image": "football.jpg", "LenguageText": "футбольный мяч", "Sound": "football.mp3", "Title": "Football", "_id": 380}
+   {"ActualSound": "", "Category": "OutdoorItems", "Image": "pool.jpg", "LenguageText": "бревно", "Sound": "moon.mp3", "Title": "Moon", "_id": 391}
+   {"ActualSound": "", "Category": "BodyParts", "Image": "arm.jpg", "LenguageText": "рука", "Sound": "arm.mp3", "Title": "Arm", "_id": 275}
+    {"ActualSound": "", "Category": "BodyParts", "Image": "bellybutton.jpg", "LenguageText": "пупок", "Sound": "belly button.mp3", "Title": "Belly Button", "_id": 277}
+{"ActualSound": "", "Category": "BodyParts", "Image": "hand", "LenguageText": "кисть руки", "Sound": "hand.mp3", "Title": "Hand", "_id": 291}
+{"ActualSound": "", "Category": "Clothing", "Image": "bathingsuit.jpg", "LenguageText": "купальник", "Sound": "bathing suit.mp3", "Title": "Bathing Suit", "_id": 179}
+{"ActualSound": "", "Category": "Transport", "Image": "doubledeckerbus.jpg", "LenguageText": "двухэтажный автобус", "Sound": "double decker bus.mp3", "Title": "Double Decker Bus", "_id": 250}
+{"ActualSound": "", "Category": "Transport", "Image": "schoolbus.jpg", "LenguageText": "самосвал", "Sound": "dump truck.mp3", "Title": "Dump Truck", "_id": 249}
+{"ActualSound": "", "Category": "Transport", "Image": "excavator ", "LenguageText": "экскаватор", "Sound": "excavator.mp3", "Title": "Excavator", "_id": 247}
+{"ActualSound": "act-fire engine.mp3", "Category": "Transport", "Image": "fireengine.jpg", "LenguageText": "пожарная машина", "Sound": "fire engine.mp3", "Title": "Fire Engine", "_id": 251}
+{"ActualSound": "", "Category": "Transport", "Image": "hangglider.jpg", "LenguageText": "дельтаплан", "Sound": "hang glider.mp3", "Title": "Hang Glider", "_id": 252}
+{"ActualSound": "", "Category": "Transport", "Image": "pickuptruck.jpg", "LenguageText": "пикап", "Sound": "pickup truck.mp3", "Title": "Pickup Truck", "_id": 267}
+{"ActualSound": "", "Category": "Transport", "Image": "policecar.jpg", "LenguageText": "полицейская машина", "Sound": "police car.mp3", "Title": "Police Car", "_id": 256}
+{"ActualSound": "act-racing car.mp3", "Category": "Transport", "Image": "racingcar.jpg", "LenguageText": "гоночная машина", "Sound": "racing car.mp3", "Title": "Racing Car", "_id": 273}
+{"ActualSound": "act-school bus.mp3", "Category": "Transport", "Image": "excavator.jpg", "LenguageText": "школьный автобус", "Sound": "school bus.mp3", "Title": "School  Bus", "_id": 248}
+{"ActualSound": "", "Category": "Transport", "Image": "sportscar.jpg", "LenguageText": "спортивная машина", "Sound": "sports car.mp3", "Title": "Sports Car", "_id": 259}
+{"ActualSound": "", "Category": "Transport", "Image": "trafficlight.jpg", "LenguageText": "светофор", "Sound": "traffic light.mp3", "Title": "Traffic Light", "_id": 261}
+{"ActualSound": "act_harmonica.mp3", "Category": "ArtMusic", "Image": "harmonica.jpg", "LenguageText": "губная гармошка", "Sound": "harmonica.mp3", "Title": "Harmonica", "_id": 429}
+{"ActualSound": "", "Category": "ArtMusic", "Image": "penone.jpg", "LenguageText": "ручка", "Sound": "pen.mp3", "Title": "Pen", "_id": 418
