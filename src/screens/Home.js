@@ -5,7 +5,7 @@ import {
   View,
   SafeAreaView,
 } from 'react-native';
-import React, {useEffect, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import {useDispatch, useSelector} from 'react-redux';
 import HorizontalList from '../components/HorizontalList';
 import Header from '../components/Header';
@@ -17,12 +17,16 @@ import {QuestionMode} from '../reduxToolkit/Slice3';
 import {BannerAd, BannerAdSize, TestIds} from 'react-native-google-mobile-ads';
 import {Addsid} from './ads';
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import {IAPContext} from '../Context';
+import PurcahsdeModal from '../components/requestPurchase';
 const db = SQLite.openDatabase({
   name: 'eFlashRussian.db',
   createFromLocation: 1,
 });
 
 const Home = () => {
+  const {hasPurchased, requestPurchase, checkPurchases, visible, setVisible} =
+    useContext(IAPContext);
   const muted = useSelector(state => state.sound);
   const Navigation = useNavigation();
   const [mute, setMute] = useState(muted);
@@ -47,7 +51,9 @@ const Home = () => {
       );
     });
   };
-
+  const onClose = value => {
+    setVisible(value);
+  };
   return (
     <SafeAreaView style={{flex: 1, backgroundColor: '#73cbea'}}>
       <ImageBackground
@@ -60,25 +66,41 @@ const Home = () => {
             Navigation.navigate('setting', {pr: 'home'});
           }}
           home
+          onPressPuchase={() => setVisible(true)}
+          hasPurchased={hasPurchased}
         />
-        <HorizontalList items={MyData} />
-        <View
-          style={{
-            position: 'relative',
-            width: '100%',
-            bottom: 0,
-            borderWidth: 1,
-            alignItems: 'center',
-          }}>
-          <BannerAd
-            style={{width: '100%'}}
-            unitId={Addsid.BANNER}
-            sizes={[BannerAdSize.FULL_BANNER]}
-            requestOptions={{
-              requestNonPersonalizedAdsOnly: true,
+        {!hasPurchased ? (
+          <PurcahsdeModal
+            onPress={async () => {
+              requestPurchase();
+              setVisible(false);
+            }}
+            onClose={onClose}
+            visible={visible}
+            onRestore={() => {
+              checkPurchases(true);
             }}
           />
-        </View>
+        ) : null}
+        <HorizontalList items={MyData} />
+        {!hasPurchased && (
+          <View
+            style={{
+              position: 'relative',
+              width: '100%',
+              bottom: 0,
+              alignItems: 'center',
+            }}>
+            <BannerAd
+              style={{width: '100%'}}
+              unitId={Addsid.BANNER}
+              sizes={[BannerAdSize.ANCHORED_ADAPTIVE_BANNER]}
+              requestOptions={{
+                requestNonPersonalizedAdsOnly: true,
+              }}
+            />
+          </View>
+        )}
       </ImageBackground>
     </SafeAreaView>
   );
