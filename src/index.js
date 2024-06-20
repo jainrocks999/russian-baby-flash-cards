@@ -52,6 +52,7 @@ const Root = () => {
     ) {
       const purchase = await AsyncStorage.getItem('IN_APP_PURCHASE');
       if (purchase) {
+        console.log(purchase);
         BackHandler.exitApp();
       } else {
         showAdd1();
