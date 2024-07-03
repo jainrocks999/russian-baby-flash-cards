@@ -7,61 +7,9 @@ import Detials from '../screens/Detials';
 import QuestionPage from '../screens/QuestionPage';
 import SettingScreen from '../screens/SettingScreen';
 import SplashScreen from '../screens/SplashScreen';
-import TrackPlayer from 'react-native-track-player';
-import {setupPlayer} from './Setup';
-import {useSelector, useDispatch} from 'react-redux';
 import NextScreen from '../screens/NextScreen';
-import InterstitialAdsScreen from '../screens/Adss';
 const Stack = createStackNavigator();
-
 const MyStack = () => {
-  const appState = useRef(AppState.currentState);
-  const [appStateVisible, setAppStateVisible] = useState(appState.current);
-  const mt = useSelector(state => state.sound);
-  const disapatch = useDispatch();
-  // useEffect(() => {
-  //   const subscription = AppState.addEventListener('change', nextAppState => {
-  //     if (
-  //       appState.current.match(/inactive|background/) &&
-  //       nextAppState === 'active'
-  //     ) {
-  //       console.log('App has come to the foreground!');
-  //     }
-
-  //     appState.current = nextAppState;
-  //     setAppStateVisible(appState.current);
-  //     if (appState.current == 'background') {
-  //       reste();
-  //     } else if (appState.current == 'active') {
-  //       play();
-  //     }
-  //   });
-
-  //   return () => {
-  //     subscription.remove();
-  //   };
-  // }, []);
-  const reste = async () => {
-    await TrackPlayer.reset();
-  };
-  const play = async () => {
-    isReady = await setupPlayer();
-    await TrackPlayer.reset();
-    let track = {
-      url: require('../../asset2/babyflashtheme.mp3'), // Load media from the file system
-      title: 'Ice Age',
-      artist: 'deadmau5',
-      // Load artwork from the file system:
-      //artwork: `asset:/files/${item.Sound}`,
-      duration: null,
-    };
-    if (isReady) {
-      await TrackPlayer.add(track);
-      mute && (await TrackPlayer.play());
-    }
-
-    dispatch(Sound(mute));
-  };
   return (
     <NavigationContainer>
       <Stack.Navigator

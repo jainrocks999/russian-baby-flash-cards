@@ -1,17 +1,8 @@
-import {
-  View,
-  Text,
-  Image,
-  Dimensions,
-  SafeAreaView,
-  StatusBar,
-} from 'react-native';
+import {Image, Dimensions, SafeAreaView, StatusBar} from 'react-native';
 import React, {useEffect} from 'react';
-import {useNavigation, StackActions} from '@react-navigation/native';
+import {useNavigation} from '@react-navigation/native';
 
 const SplashScreen = () => {
-  const {height, width} = Dimensions.get('window');
-
   const navigation = useNavigation();
   useEffect(() => {
     setTimeout(() => {
@@ -19,7 +10,7 @@ const SplashScreen = () => {
     }, 2000);
   });
   return (
-    <SafeAreaView style={{flex: 1, backgroundColor: '#73cbea'}}>
+    <SafeAreaView style={{flex: 1, backgroundColor: '#DDF6FF'}}>
       <StatusBar backgroundColor="#DDF6FF" />
       <Image
         style={{height: '100%', width: '100%'}}

@@ -243,7 +243,11 @@ const QuestionPage = props => {
           </View>
           <View
             style={{
-              marginTop: tablet ? '5%' : hasPurchased ? '8%' : '2%',
+              marginTop: tablet
+                ? '5%'
+                : Platform.OS == 'android'
+                ? '5%'
+                : '-1%',
               alignSelf: 'center',
               alignItems: 'center',
               paddingLeft: '2%',
