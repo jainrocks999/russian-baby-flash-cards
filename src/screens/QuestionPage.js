@@ -369,7 +369,7 @@ const styles = StyleSheet.create({
     bottom: '1%',
   },
   mobileView: {
-    height: hp(38),
+    height: hp(36),
     width: '46%',
     marginHorizontal: '1.5%',
     marginVertical: '1.5%',
